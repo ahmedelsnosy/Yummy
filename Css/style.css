@@ -1,0 +1,148 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    overflow: hidden;
+}
+.sidebar{
+position: fixed;
+top: 0;
+left: -200px;
+background-color: white;
+width: 250px;
+height: 100%;
+transition: 0.3s;
+z-index: 999999;
+
+}
+ul{
+    margin: 0;
+    padding: 20px 0px;
+
+}
+ul li{
+    list-style:none;
+}
+ul li a{
+    padding: 10px 20px;
+    color: black;
+    display: block;
+    text-decoration: none;
+
+}
+
+.sidebarbtn{
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    width: 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+.iconsidebar{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    font-size: 20px;
+    color: black;
+}
+.share{
+        color: black;
+        position: absolute;
+        bottom: 0px;
+        right: 20px;
+        font-size: 20px;
+}
+.logo{
+    position: absolute;
+        top: 0px;
+        right:0px;
+        width: 50px;
+        box-sizing: border-box;
+}
+.logo img{
+    width: 50px;
+}
+.sidebarbtn span{
+    display: block;
+    /* width: 35px; */
+    /* height: 3px; */
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    top: 24px;
+    left: -40px;
+    cursor: pointer;
+
+}
+.active{
+    left: 0;
+}
+.text-content{
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+cursor: pointer;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 250, 250, 0.7);
+    transition: 2s;
+    
+}
+.col-md-4{
+    overflow: hidden;
+}
+
+.col-md-4:hover .text-content{
+    top: 0;
+
+}
+.image{
+    position: relative;
+    cursor: pointer;
+}
+
+.text .test{
+
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 102);
+    padding: 10px;
+    font-size: 20px;
+    /* text-align: center; */
+    border-radius: 60%;
+
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: crimson;
+    z-index: 999999999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+
+.area,.ingredients{
+    cursor: pointer;
+}
+
+
+a{
+    cursor: pointer;
+}
