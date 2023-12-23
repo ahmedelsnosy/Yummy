@@ -1,0 +1,23 @@
+.meal {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.memberCaption {
+    background-color: #e4e4d092;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    transition: left 1s;
+        border-radius: 10px;
+}
+
+
+.meal:hover .memberCaption {
+    left: 0;
+}
